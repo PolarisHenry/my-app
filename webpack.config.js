@@ -8,6 +8,7 @@ module.exports = merge(base, {
   output: {
     filename: '[name].bundle.js',
     path: __dirname + '/dist',
+    clean: true,
   },
   module: {
     rules: [
