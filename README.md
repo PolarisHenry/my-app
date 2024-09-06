@@ -39,10 +39,10 @@ npm start
 
 **调试**
 
-1. 打开浏览器，输入`localhost:8080`，查看页面展示是否正常。
+1. 打开浏览器，输入 `localhost:8080`，查看页面展示是否正常。
 2. 安装油猴插件
 3. 打开油猴插件编辑界面，将 tampermonkey.txt 里的内容复制到编辑框中，保存。
-4. 打开任意一个网页，比如`www.baidu.com`，
+4. 打开任意一个网页，比如 `www.baidu.com`，
 
 - 查看油猴 icon 是否有一个 1 的数字标志，如果有说明油猴脚本已经成功激活
 - 网页的右上角会出现初始页面
@@ -60,7 +60,7 @@ npm run build
 1. 将/dist/app.bundle.js 文件部署到 cdn 上，获取到对应 url。（可以放到 github 上，如果托管到 git 上最好做 cdn 加速）
 2. 登录[油猴市场](https://greasyfork.org/)，谷歌账号或 github 账号都可使用。
 3. 点击账号名称，再点击**发布你编写的脚本**
-4. 进入编辑页，将 tampermonkey.txt 里的内容复制到编辑框中，记得将里面的`localhost:8080`网址替换成静态资源 url
+4. 进入编辑页，将 tampermonkey.txt 里的内容复制到编辑框中，记得将里面的 `localhost:8080`网址替换成静态资源 url
 5. 点击 「发布脚本」即可
 
 ## 例子 demo
@@ -76,4 +76,8 @@ npm run build
 
 如果想了解更多内容，请访问下面的网址：
 [油猴脚手架 wokoo 使用说明](https://juejin.cn/post/6922815205575491597)
-[油猴脚手架 wokoo git 仓库](https://github.com/kinyaying/wokoo)
+[油猴脚手架 wokoo git 仓库
+
+](https://github.com/kinyaying/wokoo)
+
+**package.json 跨平台工具** ：使用 `cross-env` 可以确保环境变量在不同操作系统上正常工作。
